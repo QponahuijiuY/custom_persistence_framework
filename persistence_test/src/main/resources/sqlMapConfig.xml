@@ -1,0 +1,9 @@
+<configuration>
+    <!--数据库连接信息-->
+    <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+    <property name="jdbcUrl" value="jdbc:mysql:///zdy_mybatis"></property>
+    <property name="user" value="root"></property>
+    <property name="password" value="Mysqlmima123"></property>
+    <!--引入sql文件-->
+    <mapper resource="mapper.xml"></mapper>
+</configuration>
